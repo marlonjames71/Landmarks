@@ -9,7 +9,12 @@
 import SwiftUI
 
 struct LandmarkDetail: View {
+	@EnvironmentObject var userData: UserData
 	var landmark: Landmark
+
+	var landmarkIndex: Int {
+		userData.landmarks.firstIndex(where: { $0.id == landmark.id })!
+	}
 
     var body: some View {
 		VStack {
@@ -42,9 +47,8 @@ struct LandmarkDetail: View {
 
 struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-		Group {
-			LandmarkDetail(landmark: landmarkData[0])
-			LandmarkDetail(landmark: landmarkData[1]).environment(\.colorScheme, .dark)
-		}
+		LandmarkDetail(landmark: landmarkData[1])
+			.environment(\.colorScheme, .dark)
+			.environmentObject(UserData())
     }
 }
