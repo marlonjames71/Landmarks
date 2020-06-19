@@ -31,6 +31,8 @@
 		37877594249C519F008FC370 /* yukon_charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37877587249C519F008FC370 /* yukon_charleyrivers.jpg */; };
 		3787759A249C543F008FC370 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37877599249C543F008FC370 /* Landmark.swift */; };
 		3787759C249C5B7A008FC370 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3787759B249C5B7A008FC370 /* Data.swift */; };
+		378775A0249C6264008FC370 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3787759F249C6264008FC370 /* LandmarkRow.swift */; };
+		378775A2249D090B008FC370 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378775A1249D090B008FC370 /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		37877587249C519F008FC370 /* yukon_charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yukon_charleyrivers.jpg; sourceTree = "<group>"; };
 		37877599249C543F008FC370 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		3787759B249C5B7A008FC370 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		3787759F249C6264008FC370 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		378775A1249D090B008FC370 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,7 @@
 			children = (
 				374D336F249C468000DB7FB3 /* CircleImage.swift */,
 				37877573249C4806008FC370 /* MapView.swift */,
+				3787759F249C6264008FC370 /* LandmarkRow.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				374D335D249C347400DB7FB3 /* LandmarkDetail.swift */,
+				378775A1249D090B008FC370 /* LandmarkList.swift */,
 			);
 			path = "Main Views";
 			sourceTree = "<group>";
@@ -269,6 +275,8 @@
 				374D335E249C347400DB7FB3 /* LandmarkDetail.swift in Sources */,
 				37877577249C4C40008FC370 /* Color + Ext.swift in Sources */,
 				3787759C249C5B7A008FC370 /* Data.swift in Sources */,
+				378775A0249C6264008FC370 /* LandmarkRow.swift in Sources */,
+				378775A2249D090B008FC370 /* LandmarkList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
